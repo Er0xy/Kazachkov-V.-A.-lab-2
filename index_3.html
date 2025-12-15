@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="style_3.css">
+  
+  <style>
+		.div1 { color: rgb(0,93,224); font-size: 32px; font-weight: 550; font-family: "Segou UI"; text-align: center;}
+		.div2 { font-size: 28px; font-weight: 550; font-family: "Segou UI"; color: purple;}
+  </style>
+</head>
+
+<body>
+	<div>
+		<div class="div1">Т а б л и ц ы в HTML</div>
+		
+		<div style="text-indent: 30px; font-size: 20px"> 
+			<span id="span1_1">
+				Одним из наиболее мощных и широко применяемых в 
+				<a style="font-weight: 550;"> HTML </a>
+				средств являются 
+				<a style="font-size:25px; font-family: Bahnschrift; font-style: italic;">таблицы</a>. </span>
+		</div>
+		
+		<div>
+			<p id="p1_1">
+				<span class="span2_1">
+					Понятие табличного представления данных не нуждается в дополнительном пояснении.</span>
+				<span class="span2_2">В HTML таблицы используются не только традиционно, как метод представления данных, но и как средство
+					форматирования Web-страниц.</span>
+				
+			</p>
+		</div>
+		
+		<div class="div2">
+			<p> Создание простейшех HTML-таблиц</p> 
+		</div>
+		
+		<div>
+			<span style="background-color: #bd19e6; font-size:25px; font-weight: 550; font-family: Bahnschrift; font-style: italic;">Описание</span>
+			<span style="font-size:22px; font-family: Bahnschrift; font-style: italic; text-decoration: underline;">таблиц</span>
+			<span style="font-size:20px; font-family: Bahnschrift; text-decoration: underline;">должно</span>
+			<span>распологаться внутри раздела документа &lt;BODY&gt;. </span>
+		</div>
+		
+		<div id="div3">
+			<span>Каждая </span>
+			<a href="#mat" style="color: blue;">таблица</a>
+			<span> должна НАЧИНАТЬСЯ тэгом &lt;TABLE&gt; и завершаться тэгом &lt;/TABLE&gt;.</span>
+		</div>
+		
+		<div id="div4">
+		<span class="span2_2">
+			<span style="color: blue; font-style: italic; font-family: Garamond; font-size: 26px; font-weight: 700;">Каждая</span>
+			<span> строка начинается тэгом &lt;TR&gt; (Table Row) и завершается тэгом
+				  &lt;/TR&gt;.</span>
+			<span>Отдельная</span>
+			<span>ячейка в строке обрамляется парой тегов&lt;TD&gt; и &lt;/TD&gt;
+				  (Table Date) или &lt;TH&gt; и &lt;/TH&gt; (Table Header)</span>
+				  </span>
+		</div>
+		
+		<h3 id="mat" style="text-align: right;"> Таблица 1 </h3>
+		
+		<h3 style="color: blue; font-style: italic; font-family: Garamond; font-size: 26px; font-weight: 700; text-decoration: line-through; text-align: center;"> Математические выражения </h3>
+	
+
+		<table class="table_mat">
+			<tbody>
+				<tr> 
+					<td style="font-style: italic; font-family: Garamond; font-size: 20px; font-weight: 700;"> Поле1 </td>
+					<td style="background-color: black; color: white; font-size: 25px; font-weight: 550; text-align: center;"> Поле 2 </td>
+					<td style="background-color: aqua; color: blue; font-size: 25px; font-weight: 550; text-align: right;"> Поле 3 </td>
+					<td style="background-color: pink; font-size: 25px; text-decoration: underline; font-style: italic;"> Поле 4 </td>
+					<td style="background-color: yellow; font-size: 25px; font-family: Segou; text-align:center;"> П о л е 5 </td>
+				</tr>
+				<tr>
+					<td style="color: blue;"> (a+b)<sup>2</sup> </td>
+					<td style="color: blue; text-align: center;"> a<sup>2</sup>-b<sup>2</sup></td>
+					<td style="color: blue; text-align: right;"> (a-b)<sup>3</sup></td>
+					<td> A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub></td>
+					<td style="color: blue; text-align: center;"> y=x<sup>2</sup></td>
+				</tr>
+			</tbody>
+		</table>
+
+	</div>
+</body>
+
+</html>

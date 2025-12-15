@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0 16px;
+  background: #f6f8fa;
+  color: #111;
+  line-height: 1.4;
+}
+
+section {
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+header {
+  background: #0b5cff;
+  color: #fff;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+nav > .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.tasks {
+	margin: 16px auto;
+}
+
+.site-title {
+  margin: 0 0 8px 0;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.profile-figure {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.profile-photo {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #222;
+  padding: 7px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background: #0b5cff;
+  border: none;
+  padding: 8px 12px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Таблицы */
+
+.table_A {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table_A td {
+  border: 1px solid #222;
+  padding: 7px;
+}
+
+.table_B {
+  border-collapse: collapse;  
+  text-align: center;
+  justify-content: center;
+}
+
+.table_B td {
+  border: 1px solid #222;
+  padding: 7px;
+}
+
+/* Формы */
+
+.form_A {
+	display: grid;
+	justify-content: center;
+}
+
+.form_B .ul1 {
+	font-size: 16px;
+	line-height: 0;
+}
+

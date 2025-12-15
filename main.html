@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Информация о студенте</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <h1 class="site-title">Добро пожаловать на сайт с информацией о студенте</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">О студенте</a></li>
+        <li><a href="#study">Учёба</a></li>
+        <li><a href="#hobbies">Хобби</a></li>
+        <li><a href="#other">Другое</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li><a href="#task">Таблицы</a></li>
+        <li><a href="#forms">Формы</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Личная информация</h2>
+
+      <figure class="profile-figure">
+        <img src="me.jpg" alt="Фото студента" class="profile-photo" width="260" height="340">
+
+      </figure>
+
+      <p><strong>ФИО:</strong> <em> Казачков Вячеслав Андреевич</em>.</p>
+      <p><strong>Коротко обо мне:</strong> начинающий IT-специалист.</p>
+      <p><strong>Почта: </strong> eroxy.nv86@gmail.com.</p>
+    </section>
+
+    <section class="section">
+      <h2>Учёба и ВУЗ</h2>
+
+      <dl>
+        <dt><strong>Мой ВУЗ</strong></dt>
+        <dd>НВГУ - Нижневартовский Государственный Университет (NVSU). Подробности на официальном сайте:</dd>
+      </dl>
+
+      <p><a class="link" href="https://nvsu.ru" target="_blank">Сайт НВГУ</a></p>
+
+      <h3>Группа</h3>
+      <p>3314</p>
+
+      <h3>Будущая профессия</h3>
+      <p>IT-Специалист</p>
+    </section>
+
+    <section id="hobbies">
+      <h2>Увлечения и хобби</h2>
+      <ul>
+        <li>Люблю играть в баскетбол</li>
+        <li>Читаю IT-новости</li>
+      </ul>
+
+      <details class="details-more">
+        <summary>Подробнее</summary>
+        <ol>
+          <li>Играю в игры</li>
+        </ol>
+      </details>
+    </section>
+
+    <section id="other">
+      <h2>Дополнительно</h2>
+      <table class="skills-table">
+        <caption>Краткие навыки</caption>
+        <thead>
+          <tr>
+            <th>Навык</th>
+            <th>Уровень</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML / CSS</td>
+            <td>Начальный</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>Начальный</td>
+          </tr>
+          <tr>
+            <td>Питон</td>
+            <td>Начальный</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+  <main>
+    <section id="task" class="tasks">
+      <h2> Таблицы: </h2>
+      <table class="table_A">
+        <caption><strong> Таблица A </strong></caption>
+        <tbody>
+          <tr>
+            <td colspan="5"> 1 </td>
+          </tr>
+          <tr>
+            <td rowspan="3"> 2 </td>
+            <td> 3 </td>
+            <td rowspan="3"> 4 </td>
+            <td> 5 </td>
+            <td> 6 </td>
+          </tr>
+          <tr>
+            <td rowspan="3"> 7 </td>
+            <td rowspan="3"> 8 </td>
+            <td> 9 </td>
+          </tr>
+          <tr>
+            <td> 10 </td>
+          </tr>
+          <tr>
+            <td> 11 </td>
+            <td> 12 </td>
+            <td> 13 </td>
+          </tr>
+
+        </tbody>
+      </table>
+
+      <table class="table_B">
+        <caption><strong> <br><br> Таблица B </strong></caption>
+        <tbody>
+          <tr>
+            <td colspan="8" bgcolor="#7FFFD4">1 </td>
+          </tr>
+          <tr>
+            <td rowspan="6" bgcolor="#FFFACD">11 </td>
+            <td colspan="6" bgcolor="#7FFFD4">2 </td>
+            <td rowspan="6" bgcolor="#FFFACD">16 </td>
+          </tr>
+          <tr>
+            <td rowspan="4" bgcolor="#FFFACD">12 </td>
+            <td colspan="4" bgcolor="#7FFFD4">3 </td>
+            <td rowspan="4" bgcolor="#FFFACD">15 </td>
+          </tr>
+          <tr>
+            <td rowspan="2" bgcolor="#FFFACD">13 </td>
+            <td bgcolor="red">4</td>
+            <td bgcolor="blue">5</td>
+            <td rowspan="2" bgcolor="#FFFACD">14 </td>
+          </tr>
+          <tr>
+            <td bgcolor="#9ACD32">6 </td>
+            <td bgcolor="yellow">7 </td>
+          </tr>
+          <tr>
+            <td colspan="4" bgcolor="#7FFFD4">8 </td>
+          </tr>
+          <tr>
+            <td colspan="6" bgcolor="#7FFFD4">9 </td>
+          </tr>
+          <tr>
+            <td colspan="8" bgcolor="#7FFFD4">10 </td>
+          </tr>
+        </tbody>
+
+      </table>
+    </section>
+  </main>
+  <main>
+    <section id="forms">
+      <h2> Формы: </h2>
+      <form class="form_A">
+        <h3> Форма A </h3>
+        <p> Фамилия
+          <input type="text"> </p>
+        <p> Инициалы
+          <input type="text"> </p>
+        <p> Пароль
+          <input type="password"> </p>
+        <p> Адрес получателя
+          <input type="text"> </p>
+        <p> Количество
+          <input type="text"> </p>
+        <p> Тип
+          <select>
+            <option selected hidden> Вид яиц </option>
+            <option> Куриные </option>
+            <option> Перепелиные </option>
+          </select>
+          <select>
+            <option selected hidden> Категория яиц</option>
+            <option> Отборные </option>
+            <option> Высшие </option>
+          </select>
+        </p>
+        <p> Доставка
+          <input type="radio" name="delivery"> Почтой
+          <input type="radio" name="delivery"> Электронно
+          <input type="radio" name="delivery"> Курьером
+        </p>
+        <p> Требуется накладная
+          <input type="checkbox">
+        </p>
+        <p> Дополнительная информация
+          <textarea rows="5" cols="60"> </textarea>
+        </p>
+        <p>
+          <button> Заказать</button>
+          <button> Отменить</button>
+        </p>
+      </form>
+
+      <form class="form_B">
+        <h3> Форма Б</h3>
+        <ul class="ul1">
+          <p> Логин: </p>
+          <input type="text">
+          <p> Пароль: </p>
+          <input type="password">
+          <p> URL-адрес сайта: </p>
+          <input type="URL-адрес" value="https://">
+          <p> Название сайта: </p>
+          <input type="text">
+          <p> Описание сайта: </p>
+          <textarea rows="10" cols="60"> </textarea>
+          <p> Тема сайта: </p>
+          <select text="Тема не выбрана">
+            <option selected hidden> Тема не выбрана </option>
+            <option> первая тема </option>
+            <option> вторая тема </option>
+          </select>
+          <p> Баннер 88x31: </p>
+          <input type="file" accept="image/*">
+        </ul>
+        <ul>
+          <button> Очистить </button>
+          <button> Отправить </button>
+        </ul>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

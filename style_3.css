@@ -1,0 +1,47 @@
+div {
+	width: 750px;
+	font-family: Arial;
+}
+
+#div3 {
+	padding: 15px 5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#div4 {
+	margin: 15px;
+	text-indent: 12px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#span1_1 {
+	background-color: aqua;
+}
+
+#p1_1 {
+	text-align: right;
+	font-size: 21px;
+}
+
+
+.span2_1 {
+	background-color: yellow;
+	text-decoration: underline;
+}
+
+.span2_2 {
+	background-color: #bababa;
+}
+
+.table_mat {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table_mat td {
+  border: 3px solid #222;
+ 
+}
